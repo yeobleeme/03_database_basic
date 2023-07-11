@@ -6,7 +6,7 @@
 	
 	   select t1.ename, t2.dname
 		   from emp t1, dept t2
-			 where t1.deptno = t2.deptno
+			where t1.deptno = t2.deptno
 	
 	2. Ansi join
 	
