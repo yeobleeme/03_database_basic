@@ -8,9 +8,12 @@
 	제약 조건의 종류
 	
 	1. not null (NN) : null값이 입력되지 못하게 하는 조건
+
 	2. unique (UK) : UK로 설정된 컬럼에는 중복된 값을 허용하지 않는 조건
+
 	3. primary key (PK) : not null + unique잌 컬럼, PK는 테이블당 한 개의 PK만 정의 가능
 	                      PK는 한 개 이상의 컬럼을 묶어서 한 개의 PK로 지정할 수 있다.
+
 	4. foreign key (FK) : 다른 테이블의 PK인 컬럼을 참조(reference) 하도록 하는 조건
 	                      부모 테이블의 PK에 없는 값이 자식 테이블에 입력되지 못하게 하는 조건 
 	5. check (CK) : 설정된 값만 입력이 되도록 하는 조건
