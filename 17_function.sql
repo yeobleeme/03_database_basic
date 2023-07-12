@@ -32,11 +32,11 @@
 	   procedure                  function
    ----------------------------------------------------
 	   서버에서 실행 (속도가 빠름)       	     클라이언트에서 실행
-		 return값 유무 상관없음    			return값 필수 
+		 return값 유무 상관없음    	     return값 필수 
 		 return값 복수개 (out 복수개)    return값 한 개
 		 파라미터 in, out              in      
 		 select절에서 사용 불가          select절에서 사용 가능
-		 -> call, execute           -> select function() from dual;
+		 -> call, execute            -> select function() from dual;
 		 
 */
 
