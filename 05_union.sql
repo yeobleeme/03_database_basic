@@ -36,7 +36,7 @@ select profno 교수번호, name 교수명 from professor
 union 
 select studno 학생번호 from student; -- 에러 = 컬럼수가 다름.
 
--- 2. union / union all
+-- 2. union / union all 
 select count(*) from student; -- 집계 함수 count(*[컬럼명])
 select count(deptno1) from student;
 select count(deptno2) from student; -- null은 없는 값.
