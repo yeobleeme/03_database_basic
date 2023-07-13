@@ -30,7 +30,7 @@ from student;
 
 -- 3. Student 테이블의 tel 컬럼을 참고하여 아래와 같이 지역별 인원수를 출력하세요.
 --    단, 02-SEOUL, 031-GYEONGGI, 051-BUSAN, 052-ULSAN, 053-DAEGU, 055-GYEONGNAM
---    으로 출력하세요
+--    으로 출력하세요.
 select count(case when substr(tel, 1, (instr(tel, ')') - 1)) = '02' then 1 end) "02-SEOUL"
 			,count(case when substr(tel, 1, (instr(tel, ')') - 1)) = '031' then 1 end) "031-GYEONGGI"
 			,count(case when substr(tel, 1, (instr(tel, ')') - 1)) = '051' then 1 end) "051-BUSAN"
