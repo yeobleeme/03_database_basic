@@ -40,7 +40,7 @@
 		 
 */
 
--- 실습. 사원번호를 입력받아 급여를 10% 인상
+-- 실습. 사원번호를 입력받아 급여를 10% 인상.
 
 create or replace function fn_01(p_empno in number) return number is 
 
