@@ -25,7 +25,7 @@
 	3. 비교연산자에 따라서 단일행 sub query(<,>,=, ...) 또는 다중행 sub query(in, exists...)를 사용할 수 있다.
 
 */
--- A. 다른 사용자의 객체(table, view, ...) 에 접근권한 부여하기
+-- A. 다른 사용자의 객체(table, view, ...) 에 접근권한 부여하기.
 
 -- 1. 현재 scott은 hr의 테이블에 접근할 수 있는 권한이 없다.
 select * from hr.employees;
