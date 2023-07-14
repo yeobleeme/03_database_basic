@@ -8,7 +8,7 @@
 -- 프로시저명 ex01~ex06
 
 /* 연습문제 */
--- ex01) professor, department을 join 교수번호, 교수이름, 소속학과이름 조회
+-- ex01) professor, department을 join 교수번호, 교수이름, 소속학과이름 조회.
 create or replace procedure ex_01(
   p_name     in professor.name%type;
 , p_profno   in professor.profno%type;
