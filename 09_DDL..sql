@@ -3,7 +3,7 @@
 	
 	1. 문법
 	
-	  create table 테이블명(
+	  create table 테이블명( 
 		   컬럼명   데이터타입(크기)   default 기본값
 			 컬럼명   데이터타입(크기)   default 기본값
 		 , 컬렴명 ... 
