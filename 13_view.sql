@@ -15,7 +15,7 @@
 	2. view를 통해서도 데이터를 insert할 수 있다. 단, rowid, rownum, nextval, curval
 	   등과 같은 가상의 컬럼에 대해 참조하고 있을 경우에 가능하다.
   3. with read only 옵션으로 설정된 view는 어떠한 데이터도 갱신할 수 없다.
-	4. with check option을 설정한 view는 view 조건에 해당되는 데이터망 삽입, 삭제, 수정할 수 있다.
+	4. with check option을 설정한 view는 view 조건에 해당되는 데이터망 삽입, 삭제, 수정할 수 있다. 
 	
 	문법
 	
