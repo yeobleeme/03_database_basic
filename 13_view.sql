@@ -26,7 +26,7 @@
 	
 	1. or replace : 동일 이름의 view가 존재할 경우 삭제 후 다시 생성(대체)
 	2. force|noforce : 테이블의 존재유무와 관계없이 view를 생성할 것인지 여부
-	3. with read only : 조회만 가능한 view
+	3. with read only : 조회만 가능한 view 
 	4. with check option : 주어진 check 옵션 즉, 제약 조건에 맞는 데이터만 입력하거나 수정 가능
 	
 	view 조회 방법
