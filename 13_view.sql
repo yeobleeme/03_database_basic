@@ -73,7 +73,7 @@ select emp.ename, dept.dname, emp.deptno
  
 select * from v_emp_dname;
 
--- 실습. 급여(sal, comm)가 포함된 view
+-- 실습. 급여(sal, comm)가 포함된 view 
 -- 예) 급여조회 권한이 있는 담당자만 사용할 수 있는 view
 create or replace view v_emp_sal as
 select empno 사원번호
