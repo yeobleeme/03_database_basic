@@ -1,2 +1,2 @@
 # 03_database_basic
-may-the-force
+database-basic-study
