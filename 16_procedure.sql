@@ -9,7 +9,7 @@
 	declare문을 이용하여 정의하고 선운문은 사용자가 정의한다. PL/SQL문은 블럭구조로 되어있고
 	PL/SQL에서 자체 compile엔진을 가지고 있다.
 	
-	1. PL/SQL의 장점 
+	1. PL/SQL의 장점
 	
 	  1) block 구조로 다수의 SQL문을 한번에 Oracle DB서버로 
 		   전송해서 처리하기 때문에 처리속도가 빠르다. 
