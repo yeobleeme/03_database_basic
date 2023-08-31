@@ -33,7 +33,7 @@ select * from hr.employees;
 -- 2. hr 사용자가 scott에게 employees, departments 테이블 조회 권한 부여
 -- 1) sysdba 권한 or 소유자(hr)가 다른 사용자(scott)에게 권한을 부여할 수 있다.
 -- 2) hr에서 scott에 권한을 부여
--- 3) 사용자를 hr로 변경 후 잡업
+-- 3) 사용자를 hr로 변경 후 잡업 
 -- 4) 문법 : 
 --    a) 권한 부여 : grant 부여할 명령 on 접근허용할 객체 to 권한부여하는 사용자
 --    b) 권한 해제 : revoke 해제할 명령 on 해제할 객체 from 권한해제할 사용자 
