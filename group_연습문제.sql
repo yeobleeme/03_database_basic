@@ -9,7 +9,7 @@ select max(sal + nvl(comm, 0)) 가장_많은_급여
   from emp;
 
 
--- 2. student 테이블의 birthday 컬럼을 참조해서 월별로 생일자수를 출력하세요
+-- 2. student 테이블의 birthday 컬럼을 참조해서 월별로 생일자수를 출력하세요 
 -- TOTAL, JAN, ...,  5 DEC
 --  20EA   3EA ....
 select count(*) || 'EA' "TOTAL"
