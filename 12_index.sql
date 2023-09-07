@@ -14,7 +14,7 @@
 		1) 데이터오브젝트번호 (6) : AAAW5j
 		2) 파일번호 (3) : AAE
 		3) block번호 (6) : AAAAFb
-		4) row번호 (3) : AAA
+		4) row번호 (3) : AAA 
 		
 	2. index를 사용하는 이유
 	
