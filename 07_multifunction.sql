@@ -1,6 +1,6 @@
 /*그룹 함수*/
 
--- count : 조건에 맞는 행의 갯수를 리턴 
+-- count : 조건에 맞는 행의 갯수를 리턴
 select count(*) from emp;
 select count(ename) from emp;
 select count(comm) from emp;
